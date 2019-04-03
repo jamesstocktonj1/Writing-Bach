@@ -104,3 +104,7 @@ def printResults(testArr):
 #printResults([0, 2, 4, 5, 12, 23, 65, 73])
 
 
+
+
+def noteUniversal(note):
+    return note % 12

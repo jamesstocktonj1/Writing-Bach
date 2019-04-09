@@ -49,7 +49,7 @@ def getChord(scale, chord, seventh):
     currNote = chord - 1
     for note in range(chordLeng):
 
-        print((chord - 1) + (2 * note))
+        #print((chord - 1) + (2 * note))
 
         if ((chord - 1) + (2 * note)) > 6:
             finChord.append(scale[((chord - 1) + (2 * note)) - 6])
